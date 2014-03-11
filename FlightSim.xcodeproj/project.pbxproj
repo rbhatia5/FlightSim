@@ -7,8 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		B7A3B86E18CD3E7C00A1E5DF /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B7A3B86D18CD3E7C00A1E5DF /* main.cpp */; };
 		B7A3B87018CD3E7C00A1E5DF /* FlightSim.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = B7A3B86F18CD3E7C00A1E5DF /* FlightSim.1 */; };
+		B7A3B87718CD3E8F00A1E5DF /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B7A3B87618CD3E8F00A1E5DF /* OpenGL.framework */; };
+		B7A3B87918CD3E9400A1E5DF /* GLUT.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B7A3B87818CD3E9400A1E5DF /* GLUT.framework */; };
+		B7A3B87E18CD429D00A1E5DF /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B7A3B86D18CD3E7C00A1E5DF /* main.cpp */; };
+		B7AFD91518CE2C5C006D27CC /* Matrix.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B7AFD91318CE2C5C006D27CC /* Matrix.cpp */; };
+		B7AFD91818CE8555006D27CC /* Vector.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B7AFD91618CE8555006D27CC /* Vector.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -28,6 +32,34 @@
 		B7A3B86A18CD3E7C00A1E5DF /* FlightSim */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = FlightSim; sourceTree = BUILT_PRODUCTS_DIR; };
 		B7A3B86D18CD3E7C00A1E5DF /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		B7A3B86F18CD3E7C00A1E5DF /* FlightSim.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = FlightSim.1; sourceTree = "<group>"; };
+		B7A3B87618CD3E8F00A1E5DF /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = System/Library/Frameworks/OpenGL.framework; sourceTree = SDKROOT; };
+		B7A3B87818CD3E9400A1E5DF /* GLUT.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLUT.framework; path = System/Library/Frameworks/GLUT.framework; sourceTree = SDKROOT; };
+		B7ABBFEB18CD8E3F00968D08 /* array.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = array.h; sourceTree = "<group>"; };
+		B7ABBFEC18CD8E3F00968D08 /* config-osx.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "config-osx.h"; sourceTree = "<group>"; };
+		B7ABBFED18CD8E3F00968D08 /* config-vc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "config-vc.h"; sourceTree = "<group>"; };
+		B7ABBFEE18CD8E3F00968D08 /* config.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = config.h; sourceTree = "<group>"; };
+		B7ABBFEF18CD8E3F00968D08 /* config.h.in */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = config.h.in; sourceTree = "<group>"; };
+		B7ABBFF018CD8E3F00968D08 /* geom3d.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = geom3d.h; sourceTree = "<group>"; };
+		B7ABBFF118CD8E3F00968D08 /* geom4d.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = geom4d.h; sourceTree = "<group>"; };
+		B7ABBFF218CD8E3F00968D08 /* gfx.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = gfx.h; sourceTree = "<group>"; };
+		B7ABBFF318CD8E3F00968D08 /* gl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = gl.h; sourceTree = "<group>"; };
+		B7ABBFF418CD8E3F00968D08 /* glext.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = glext.h; sourceTree = "<group>"; };
+		B7ABBFF518CD8E3F00968D08 /* gltools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = gltools.h; sourceTree = "<group>"; };
+		B7ABBFF618CD8E3F00968D08 /* intvec.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = intvec.h; sourceTree = "<group>"; };
+		B7ABBFF718CD8E3F00968D08 /* mat2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mat2.h; sourceTree = "<group>"; };
+		B7ABBFF818CD8E3F00968D08 /* mat3.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mat3.h; sourceTree = "<group>"; };
+		B7ABBFF918CD8E3F00968D08 /* mat4.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mat4.h; sourceTree = "<group>"; };
+		B7ABBFFA18CD8E3F00968D08 /* quat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = quat.h; sourceTree = "<group>"; };
+		B7ABBFFB18CD8E3F00968D08 /* symmat2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = symmat2.h; sourceTree = "<group>"; };
+		B7ABBFFC18CD8E3F00968D08 /* symmat3.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = symmat3.h; sourceTree = "<group>"; };
+		B7ABBFFD18CD8E3F00968D08 /* symmat4.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = symmat4.h; sourceTree = "<group>"; };
+		B7ABBFFE18CD8E3F00968D08 /* vec2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = vec2.h; sourceTree = "<group>"; };
+		B7ABBFFF18CD8E3F00968D08 /* vec3.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = vec3.h; sourceTree = "<group>"; };
+		B7ABC00018CD8E3F00968D08 /* vec4.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = vec4.h; sourceTree = "<group>"; };
+		B7AFD91318CE2C5C006D27CC /* Matrix.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Matrix.cpp; sourceTree = "<group>"; };
+		B7AFD91418CE2C5C006D27CC /* Matrix.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Matrix.h; sourceTree = "<group>"; };
+		B7AFD91618CE8555006D27CC /* Vector.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Vector.cpp; sourceTree = "<group>"; };
+		B7AFD91718CE8555006D27CC /* Vector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Vector.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,6 +67,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B7A3B87918CD3E9400A1E5DF /* GLUT.framework in Frameworks */,
+				B7A3B87718CD3E8F00A1E5DF /* OpenGL.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -44,6 +78,9 @@
 		B7A3B86118CD3E7C00A1E5DF = {
 			isa = PBXGroup;
 			children = (
+				B7ABBFEA18CD8E3F00968D08 /* gfx */,
+				B7A3B87818CD3E9400A1E5DF /* GLUT.framework */,
+				B7A3B87618CD3E8F00A1E5DF /* OpenGL.framework */,
 				B7A3B86C18CD3E7C00A1E5DF /* FlightSim */,
 				B7A3B86B18CD3E7C00A1E5DF /* Products */,
 			);
@@ -62,8 +99,42 @@
 			children = (
 				B7A3B86D18CD3E7C00A1E5DF /* main.cpp */,
 				B7A3B86F18CD3E7C00A1E5DF /* FlightSim.1 */,
+				B7AFD91318CE2C5C006D27CC /* Matrix.cpp */,
+				B7AFD91418CE2C5C006D27CC /* Matrix.h */,
+				B7AFD91618CE8555006D27CC /* Vector.cpp */,
+				B7AFD91718CE8555006D27CC /* Vector.h */,
 			);
 			path = FlightSim;
+			sourceTree = "<group>";
+		};
+		B7ABBFEA18CD8E3F00968D08 /* gfx */ = {
+			isa = PBXGroup;
+			children = (
+				B7ABBFEB18CD8E3F00968D08 /* array.h */,
+				B7ABBFEC18CD8E3F00968D08 /* config-osx.h */,
+				B7ABBFED18CD8E3F00968D08 /* config-vc.h */,
+				B7ABBFEE18CD8E3F00968D08 /* config.h */,
+				B7ABBFEF18CD8E3F00968D08 /* config.h.in */,
+				B7ABBFF018CD8E3F00968D08 /* geom3d.h */,
+				B7ABBFF118CD8E3F00968D08 /* geom4d.h */,
+				B7ABBFF218CD8E3F00968D08 /* gfx.h */,
+				B7ABBFF318CD8E3F00968D08 /* gl.h */,
+				B7ABBFF418CD8E3F00968D08 /* glext.h */,
+				B7ABBFF518CD8E3F00968D08 /* gltools.h */,
+				B7ABBFF618CD8E3F00968D08 /* intvec.h */,
+				B7ABBFF718CD8E3F00968D08 /* mat2.h */,
+				B7ABBFF818CD8E3F00968D08 /* mat3.h */,
+				B7ABBFF918CD8E3F00968D08 /* mat4.h */,
+				B7ABBFFA18CD8E3F00968D08 /* quat.h */,
+				B7ABBFFB18CD8E3F00968D08 /* symmat2.h */,
+				B7ABBFFC18CD8E3F00968D08 /* symmat3.h */,
+				B7ABBFFD18CD8E3F00968D08 /* symmat4.h */,
+				B7ABBFFE18CD8E3F00968D08 /* vec2.h */,
+				B7ABBFFF18CD8E3F00968D08 /* vec3.h */,
+				B7ABC00018CD8E3F00968D08 /* vec4.h */,
+			);
+			name = gfx;
+			path = FlightSim/gfx;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -117,7 +188,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B7A3B86E18CD3E7C00A1E5DF /* main.cpp in Sources */,
+				B7AFD91518CE2C5C006D27CC /* Matrix.cpp in Sources */,
+				B7A3B87E18CD429D00A1E5DF /* main.cpp in Sources */,
+				B7AFD91818CE8555006D27CC /* Vector.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -195,6 +268,7 @@
 		B7A3B87418CD3E7C00A1E5DF /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -202,6 +276,7 @@
 		B7A3B87518CD3E7C00A1E5DF /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -225,6 +300,7 @@
 				B7A3B87518CD3E7C00A1E5DF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
